@@ -1,0 +1,53 @@
+.caja{
+    height: 300px;
+    width: 220px;
+    background-color: rgba(252, 251, 251, 0.681);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #42f647;
+    box-shadow: -4px 6px 9px 1px rgba(64,235,96,0.75);
+   -webkit-box-shadow: -4px 6px 9px 1px rgba(64,235,96,0.75);
+   -moz-box-shadow: -4px 6px 9px 1px rgba(64,235,96,0.75);
+   margin-top: 20px;
+   margin-bottom: 40px;
+ }
+ .ima{
+     height: 150px;
+     width: 150px;
+     border-radius: 20px;
+     border: 6px solid #000000;
+  }
+  .txto{
+   width: 200px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     order:2;
+     font-family: 'Poor Story', cursive;
+     font-size: 15px;
+  }
+  .name{
+   font-size: 1.3rem;
+     align-self: center;
+     z-index: 100;
+     font-family: 'Anton', sans-serif;
+  } 
+  .boton{
+     background-color: rgb(254, 63, 34);
+     color: rgb(255, 255, 255);
+     width: 30px;
+     align-self: flex-end;
+     border-radius: 6px;
+  }
+  .highCard{
+   width: 200px;
+   height: 25px;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+  }

@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerItems{
+    color: #42f647;
+    height: 520px;
+    width: 1100px;
+    border: 3px solid #42f647;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+    background-image: url('https://i.pinimg.com/originals/b1/45/3c/b1453c3b76f69f00303029fadd2329ad.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.containerItems h1{
+    margin: 5px 5px;
+}
+.containerItemsShadow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+    height: 520px;
+    width: 1100px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.5);
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcomeLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 280px;
+    border: 3px solid #42f647;
+    border-radius: 15px;
+    margin: 5px;
+}
+.welcomeLink:hover{
+    background-color: #036c05;
+}
+.welcomeTextLink{
+    color: #42f647;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.liBtnContainer{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}

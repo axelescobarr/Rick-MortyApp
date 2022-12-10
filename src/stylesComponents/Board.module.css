@@ -1,0 +1,43 @@
+.boardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(55,203,70,0.7987570028011204) 48%, rgba(0,0,0,1) 100%);
+}
+.drawBoton{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        min-width: 130px;
+        height: 40px;
+        color: rgb(0, 0, 0);
+        padding: 5px 10px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: 4px solid #42f647;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        background: #42f647;
+        box-shadow: -7px 6px 6px -3px rgba(105,105,105,0.75);
+        -webkit-box-shadow: -7px 6px 6px -3px rgba(105,105,105,0.75);
+        -moz-box-shadow: -7px 6px 6px -3px rgba(105,105,105,0.75);
+}
+
+.drawBoton:hover{
+    background-color: rgb(0, 0, 0);
+    color: #42f647;
+}
+
+.botonContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-right: 30px;
+}
+    
+   

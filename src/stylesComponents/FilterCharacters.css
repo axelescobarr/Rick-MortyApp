@@ -1,0 +1,65 @@
+.usersContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.errorContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.error{
+    width: 480px;
+    border: 3px solid red;
+    background-color: black;
+    border-radius: 10px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.menuContainer{
+    width: 99%;
+    min-height: 528px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuFilter{
+    color: #42f647;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 450px;
+    background-color: rgba(0,0,0,0.7);
+    border: 4px solid #42f647;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.filterlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 3px solid #42f647;
+    border-radius: 15px;
+    margin: 5px;
+}
+.licontainer{
+    margin-top: 50px;
+    color: aliceblue;
+}
+.filtertextLink{
+    color: #42f647;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.filterlink:hover{
+    background-color: rgb(27, 119, 4);
+}

@@ -1,0 +1,10 @@
+.searchB{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+ }
+ .buscar{
+    background-color: rgb(62, 237, 147);
+    color: rgb(44, 0, 133);
+ }
+ 

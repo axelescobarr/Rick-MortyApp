@@ -52,7 +52,7 @@ const Navbar = () => {
                 <ul className="liContainer">
                     <li className='link'><NavLink className='textLink' to= "/allcharacters">All the characters</NavLink></li>
                     <li className='link'><NavLink className='textLink' to= "/filtercharacters">Filter character</NavLink></li>
-                    <li className='link'><NavLink className='textLink' to= "/board">Drawing board</NavLink></li>
+                    {/* <li className='link'><NavLink className='textLink' to= "/board">Drawing board</NavLink></li> */}
                     <li className='link'><NavLink className='textLink' to= "/createcharacter">Create character</NavLink></li>
                     <li className='link'><NavLink className='textLink' to= "/">Home</NavLink></li>
                 </ul> 

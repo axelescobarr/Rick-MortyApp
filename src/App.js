@@ -7,7 +7,7 @@ import FilterCharactersByGender from './components/FilterCharacterByGender.jsx';
 import FilterCharactersBySpecie from './components/FilterCharacterBySpecie.jsx';
 import FilterCharactersByStatus from './components/FilterCharacterByStatus.jsx';
 import Welcome from './components/Welcome.jsx';
-import Board from './components/Board';
+// import Board from './components/Board';
 import CreateCharacter from './components/CreateCharacter';
 import {Route} from 'react-router-dom';
 function App() {
@@ -19,9 +19,9 @@ function App() {
       <Route exact path='/'>
         <Welcome/>
       </Route>
-      <Route exact path='/board'>
+      {/* <Route exact path='/board'>
         <Board/>
-      </Route>
+      </Route> */}
       <Route exact path='/allcharacters'>
         <AllCharacters/>
       </Route>
